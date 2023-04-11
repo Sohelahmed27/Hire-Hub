@@ -1,0 +1,23 @@
+ [
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/9307/9307617.png",
+      "title": "Software Developer",
+      "count": 150
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055666.png",
+      "title": "Graphic Designer",
+      "count": 80
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/3141/3141285.png",
+      "title": "Digital Marketer",
+      "count": 120
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/4298/4298373.png",
+      "title": "Customer Service Representative",
+      "count": 200
+    }
+  ]
+

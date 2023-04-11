@@ -1,0 +1,33 @@
+.job-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px 5px;
+  
+}
+.job-container img{
+  width:50px;
+  height:50px;
+  display:flex;
+  content-items:center;
+}
+ @media only screen and (min-width:768px){
+  .job-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px;
+    
+  }
+  .job-container img{
+    width:50px;
+    height:50px;
+    display:flex;
+    content-items:center;
+  }
+  
+ }
