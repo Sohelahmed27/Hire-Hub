@@ -5,6 +5,7 @@
     color:#fff;
     font-weight: bold;
     margin:0px 0px;
+  
     
 }
 
@@ -38,12 +39,29 @@ padding:20px;
   font-weight: bold;
 }
 
-@media only screen and (mmax-width: 768px) {
+@media only screen and (max-width: 768px) {
   .header-container{
     width: 100%;
+    /* position: absolute; */
+    
   }
   .site-title{
     margin-left:0px;
+  }
+
+  .nav-link{
+    display:flex;
+    flex-direction:column;
+    /* position: relative; */
+    position: absolute;
+    
+    margin-left:100px;
+    background-color:#6610f2;;
+  
+    border: 3px solid #73AD21;
+    color:blue;
+   
+    align-items: center;
   }
 
   .nav-link a{
@@ -51,6 +69,7 @@ padding:20px;
     color:#fff;
     margin-left:5px;
     padding:5px;
+    position: relative;
     }
 
   .btn-nav{
