@@ -12,17 +12,19 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import Blog from './components/Blog/Blog';
 import Jobs from './components/Jobs/Jobs';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 
 const router= createBrowserRouter([
   {
     path: '/',
     element:<Main></Main>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
         element:<Home></Home>,
-        loader:()=>fetch('fakedb.json')
+        loader:()=>fetch('/fakedb.json')
 
         
       },
