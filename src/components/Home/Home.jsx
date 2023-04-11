@@ -1,10 +1,13 @@
 import React from 'react';
+import Cover from '../Cover/Cover';
+
+import './Home.css'
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is home page</h1>
-    </div>
+<div>
+  <Cover></Cover>
+</div>
   );
 };
 
