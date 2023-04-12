@@ -13,8 +13,9 @@ import AppliedJob from './components/AppliedJob/AppliedJob';
 import Blog from './components/Blog/Blog';
 // import Jobs from './components/Jobs/Jobs';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import FeatureJobs from './components/FeatureJobs/FeatureJobs';
-import Detail from './components/Detail/Detail';
+// import FeatureJobs from './components/FeatureJobs/FeatureJobs';
+import Details from './components/Details/Details';
+import FeatureJob from './components/FeatureJob/FeatureJob';
 
 
 const router= createBrowserRouter([
@@ -26,8 +27,8 @@ const router= createBrowserRouter([
       {
         path: '/',
         element:<Home></Home>,
-        // loader:()=>fetch('/fakedb.json'),
-        loader:()=>fetch('https://run.mocky.io/v3/f70daafe-ad8c-4d72-89e5-925916b41b6c'),
+       
+        // loader:()=>fetch('https://run.mocky.io/v3/f70daafe-ad8c-4d72-89e5-925916b41b6c'),
 
       },
       {
@@ -49,14 +50,14 @@ const router= createBrowserRouter([
         
       // },
       {
-        path: '/featureJobs',
-        element:<FeatureJobs></FeatureJobs>,
-        // loader:()=>fetch('https://run.mocky.io/v3/f70daafe-ad8c-4d72-89e5-925916b41b6c'),
+        path: '/featureJob',
+        element:<FeatureJob></FeatureJob>,
+        
       },
       {
-        path: '/detail',
-        element:<Detail></Detail>,
-        loader:()=>fetch
+        path: '/details',
+        element:<Details></Details>,
+        loader:({params})=>fetch('https://run.mocky.io/v3/f70daafe-ad8c-4d72-89e5-925916b41b6c'),
       }
     ]
   }

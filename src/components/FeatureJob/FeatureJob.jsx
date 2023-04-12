@@ -1,7 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './FeatureJob.css'
 
 const FeatureJob = ({feature}) => {
+  const navigate = useNavigate();
+  const handleNavigation =()=>{
+    console.log(feature.id)
+        navigate(`/details`)      
+  }
   console.log(feature)
   const {job_title, company_icon,company_name,address,salary,place_of_work,job_type, job_type_1}=feature;
   return (
@@ -19,7 +25,7 @@ const FeatureJob = ({feature}) => {
       <h4>{address}</h4>
       <h4>Salary: $ {salary}</h4>
      </div>
-     <button className='btn-nav'>Job Details</button>
+     <button onClick={()=>handleNavigation()} className='btn-nav'>Job Details</button>
     </div>
   );
 };
