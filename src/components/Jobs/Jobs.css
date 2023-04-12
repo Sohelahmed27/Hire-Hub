@@ -16,7 +16,7 @@
 }
 
 @media only screen and (max-width:768px){
-  .jobs-container{
+  .jobs{
     display:flex;
     flex-direction:column;
     gap:20px;

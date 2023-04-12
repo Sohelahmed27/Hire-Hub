@@ -1,0 +1,37 @@
+.img-section img{
+  width:200px;
+  height:100px;
+}
+
+.job-type button{
+  margin-right:10px;
+  height:40px;
+  width:100px;
+  color:blue;
+}
+
+.add-sal{
+  display:flex;
+  justify-content:space-between;
+}
+
+.feature{
+  border:1px solid #ccc;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px 5px;
+}
+
+.btn-feature{
+  margin:30px auto;
+  
+  width: 100px;
+  height: 45px;
+  color:white;
+  background-color: #fb236a;
+  border-radius:8px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.feature-container h1{
+  text-align: center;
+  color:blue;
+  margin-top: 140px;
+}
+.feature-container p{
+  text-align: center;
+  font-size:21px;
+}
+
+.feature-jobs{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin:20px;
+  padding:20px;
+  gap:40px;
+}
+.btn-feature{
+  
+}
+
+@media only screen and (max-width:768px) {
+  .feature-jobs{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin:20px;
+    gap:40px;
+  }
+}

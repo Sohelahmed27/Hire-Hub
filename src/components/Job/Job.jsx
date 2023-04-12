@@ -5,6 +5,7 @@ const Job = ({job}) => {
   const { count, title, icon}= job;
   return (
     <div className='job-container'>
+    
       <div>
       <img src={icon}/>
       
